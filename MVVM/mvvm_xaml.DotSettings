@@ -1,0 +1,37 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Shortcut/@EntryValue">iet</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Description/@EntryValue">Insert an EventTrigger(Blend 4) code snippet.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Text/@EntryValue">&lt;i:EventTrigger EventName="$EventName$" &gt;&#xD;
+    &lt;i:InvokeCommandAction Command="{Binding $Action$Command}" /&gt;&#xD;
+&lt;/i:EventTrigger&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Categories/=mvvm/@EntryIndexedValue">mvvm</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Scope/=2F5319C2E16A334DB8431F8560FB5D01/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Scope/=2F5319C2E16A334DB8431F8560FB5D01/Type/@EntryValue">InXmlTag</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Field/=EventName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Field/=EventName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Field/=Action/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Field/=Action/Expression/@EntryValue">capitalize(EventName)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CCCCD7C540B054AB27B25EFACA9BC56/Field/=Action/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Shortcut/@EntryValue">iets</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Description/@EntryValue">Insert EventTriggers(Blend 4) code snippet.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Text/@EntryValue">&lt;i:Interaction.Triggers&gt;&#xD;
+    &lt;i:EventTrigger EventName="$EventName$" &gt;&#xD;
+        &lt;i:InvokeCommandAction Command="{Binding $Action$Command}" /&gt;&#xD;
+    &lt;/i:EventTrigger&gt;&#xD;
+&lt;/i:Interaction.Triggers&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Categories/=mvvm/@EntryIndexedValue">mvvm</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Scope/=2F5319C2E16A334DB8431F8560FB5D01/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Scope/=2F5319C2E16A334DB8431F8560FB5D01/Type/@EntryValue">InXmlTag</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Field/=EventName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Field/=EventName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Field/=Action/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Field/=Action/Expression/@EntryValue">capitalize(EventName)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F8F53D9A33542409A4C24451CF99671/Field/=Action/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

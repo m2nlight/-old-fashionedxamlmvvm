@@ -1,0 +1,31 @@
+﻿<Window x:Class="Test.WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:WpfApplication="clr-namespace:Test.WpfApplication"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <WpfApplication:SomedayToCurrentDaysConverter x:Key="SomedayToCurrentDaysConverter" />
+    </Window.Resources>
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" Text="{Binding Birthday}" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="250,34,0,0" TextWrapping="Wrap" Text="{Binding Birthday, Converter={StaticResource SomedayToCurrentDaysConverter},StringFormat='{}{0:N0}天'}" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" Text="{Binding Score}" VerticalAlignment="Top"/>
+        <ItemsControl Margin="0,130,0,0" ItemsSource="{Binding Items}"></ItemsControl>
+        <Button Content="Random" HorizontalAlignment="Left" Margin="416,34,0,0" VerticalAlignment="Top" Width="75">
+            <!--code snippet: iets or iet-->
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click" >
+                    <i:InvokeCommandAction Command="{Binding RandomCommand}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Button Content="Run" HorizontalAlignment="Left" Margin="416,73,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding RunButtonIsEnabled}">
+            <!--code snippet: iets or iet-->
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <i:InvokeCommandAction Command="{Binding RunCommand}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+    </Grid>
+</Window>

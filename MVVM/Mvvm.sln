@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvvm", "Mvvm\Mvvm.csproj", "{D1B244E5-C421-4A1F-B3AC-C8652F062224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WpfApplication", "Test.WpfApplication\Test.WpfApplication.csproj", "{63ADD75E-26EE-41E6-BEC4-4235DD14D946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.PhoneApp1", "Test.PhoneApp1\Test.PhoneApp1.csproj", "{E820F536-F868-415A-93C3-F8CB4A91B5F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B244E5-C421-4A1F-B3AC-C8652F062224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B244E5-C421-4A1F-B3AC-C8652F062224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B244E5-C421-4A1F-B3AC-C8652F062224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B244E5-C421-4A1F-B3AC-C8652F062224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63ADD75E-26EE-41E6-BEC4-4235DD14D946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63ADD75E-26EE-41E6-BEC4-4235DD14D946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63ADD75E-26EE-41E6-BEC4-4235DD14D946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63ADD75E-26EE-41E6-BEC4-4235DD14D946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E820F536-F868-415A-93C3-F8CB4A91B5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E820F536-F868-415A-93C3-F8CB4A91B5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E820F536-F868-415A-93C3-F8CB4A91B5F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E820F536-F868-415A-93C3-F8CB4A91B5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E820F536-F868-415A-93C3-F8CB4A91B5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E820F536-F868-415A-93C3-F8CB4A91B5F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
